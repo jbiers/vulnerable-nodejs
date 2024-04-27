@@ -1,0 +1,32 @@
+{
+  "name": "vulnerable-nodejs",
+  "version": "1.0.0",
+  "description": "An intentionally vulnerable NodeJS application",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "lodash": "4.17.10",
+    "debug": "^4.2.0",
+    "request": "^2.88.2",
+    "axios": "^0.19.2",
+    "moment": "^2.29.1",
+    "uglify-js": "^3.13.6",
+    "ws": "^7.4.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbiers/vulnerable-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbiers/vulnerable-nodejs/issues"
+  },
+  "homepage": "https://github.com/jbiers/vulnerable-nodejs#readme"
+}
